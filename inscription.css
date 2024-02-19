@@ -1,0 +1,28 @@
+body{
+    background-image: url(img/widadii.jpg);
+    background-size: cover;
+    background-position: center;
+}
+fieldset{
+    background-color:rgba(0, 0, 0, 0.7);
+    color: rgb(5, 5, 5);
+    border-radius: 30%;
+    width: 50%;
+    height: 70%;
+    text-align: center;
+    border: 50%;
+    margin-left: 300px;
+    margin-top: 120px;
+}
+legend{
+    color: rgb(255, 255, 255);
+}
+label{
+    color: red;
+}
+input{
+    height: 1.6rem;
+}
+.fichier{
+    color: wheat;
+}

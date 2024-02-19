@@ -1,0 +1,64 @@
+body{
+background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(img/tifofamilly.jpg);
+background-size: cover;
+background-position: top;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.login {
+    margin-top: -130px;
+    background-color: rgba(216, 36, 36, 0.664);
+    padding: 20px;
+    border-radius: 9px;
+    text-align: center;
+    max-width: 300px; /* Largeur maximale du formulaire */
+    width: 100%; /* Pourcentage de la largeur maximale */
+}
+
+.login h1 {
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+.formulaire {
+    margin-bottom: 1px;
+}
+
+.formulaire input {
+    width: calc(100% - 45px); /* Largeur moins la marge */
+    padding: 9px;
+    margin-bottom: 10px;
+    border: 3px solid #be0f0f;
+    border-radius: 30px;
+    box-sizing: border-box;
+}
+
+.button_connexion a {
+    display: block;
+    width: 40%;
+    margin-left: 5rem;
+    padding: 10px;
+    background-color: #3d9bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: background-color 0.4s;
+}
+
+.button_connexion a:hover {
+    background-color: #0f46be;
+}
+.solution a:hover{
+    background-color: #0f46be;
+}
+
+.solution a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 100px;
+    padding: 3.5px;
+    transition: 0.4s;
+}

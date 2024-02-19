@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: century;
+}
+
+@keyframes changeBackground {
+    0% {
+        background-image: url(img/background.jpg);
+    }
+    33.33% {
+        background-image: url(img/1.jpg);
+    }
+    66.66% {
+        background-image: url(img/2.jpg);
+    }
+    100% {
+        background-image: url(img/maxresdefault\ \(20\).jpg); /* Revenez à la première image pour créer une boucle */
+    }
+}
+#background{
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url(./img/background.jpg);
+    background-size:cover;
+    background-position: center;
+    height: 110vh;
+    animation-duration: 15s;
+}
+header{
+    position: fixed;
+    width: 100%;
+
+}
+li img{
+    position: absolute;
+    top: 10%;
+    left: 0%;
+   height: 85px;
+}
+.logo span{
+    color: rgb(238, 56, 11);
+    font-weight:bold ;
+    font-size: 2rem;
+}
+ul{
+    list-style: none;
+    float: right ;
+    display: flex;
+    margin-top: 20px;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: white 1px solid transparent;
+    margin: 10px;
+    font-weight: 500;
+    transition: 1s ease;
+}
+ul li a:hover{
+    background-color: red
+}
+ul li.active a{
+    background-color: red;
+}
+.principale{
+    max-width: 114rem;
+    margin: 0 auto ;
+}
+.titre{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.titre h1{
+    color: red;
+    font-size: 80px;
+}
+.button {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 25px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.button :hover{
+    background-color: red;
+}
+.button a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border-spacing: 10px;
+    margin-left: 10px;
+}
+.btn{
+    transition: 0.5s ease;
+    background-color: rgb(214, 149, 28);
+
+}
+.contact{
+    position: absolute;
+    top: 110%;
+    width: 100%;
+    height: 100px;
+    background-color: red;
+    color: white;
+    text-align: center;
+}

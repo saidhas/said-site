@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'roboto',sans-serif;
+}
+body{
+    background-color: #f2f2f2;
+}
+.heading{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px auto;
+}
+.heading h1{
+    font-size: 50px;
+    position: relative;
+    color: #000000;
+    margin-bottom: 25px;
+}
+.heading h1::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 4px;
+    display: block;
+    margin:0 auto;
+    background-color: red;
+}
+.heading p{
+    font-size: 31px;
+    color: #000000;
+    margin-bottom: 50px;
+}
+.container{
+    width: 90%;
+    padding: 10px 20px;
+    margin: 0 auto;
+}
+.apropos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.aproposimage img{
+    width: 500px;
+    height: 500px;
+    margin-right: 40px;
+    transition: 0.5s ease;
+}
+.aproposimage:hover img{
+    transform: scale(1.1);
+}
+.aproposcontent h2{
+    font-size: 1em;
+    margin-bottom: 15px;
+    color: #333;
+}
+.aproposcontent p{
+    font-size: 2rem;
+    line-height: 1.5px;
+    color: #666;
+    text-align: justify;
+}
+.voirplus{
+    display: inline-block;
+    padding: 10px 10px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    border-radius: 50px;
+    margin-top: 8px;
+    transition: 0.3s ease;
+}
+.voirplus:hover{
+    background-color: red;
+}
